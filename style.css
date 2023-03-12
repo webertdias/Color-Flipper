@@ -1,0 +1,39 @@
+.selecao{
+    height: 30px;
+    background-color: cornflowerblue;
+}
+
+#cor{
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 20px;
+    font-weight: bold;
+    color:aquamarine;
+}
+
+#simples{
+    margin-top: -10px;
+    margin-left: 830px;
+    font-size: 20px;
+}
+
+#hex{
+    margin-top:-20px;
+    margin-left: 930px;
+    font-size: 20px;
+}
+
+#tipos{
+    margin-top: 250px;
+    margin-left: 400pt;
+    font-size: 40px;
+    padding: 10px 30px 10px 30px;
+}
+
+button {
+    margin-top: 150px;
+    margin-left: 500pt;
+    border-radius: 5px;
+    border-color:cadetblue;
+    padding: 5px 20px;
+}
