@@ -1,6 +1,11 @@
 header{
     height: 50px;
+    position:static;
     background-color: white;
+}
+
+body{
+    min-height: fit-content;
 }
 
 #flipper{
@@ -13,35 +18,84 @@ header{
 
 #simple{
     margin-top: -20px;
-    margin-left: 830px;
+    margin-left: 930px;
     font-size: 20px;
 }
 
 #hex{
     margin-top:-20px;
-    margin-left: 930px;
+    margin-left: 1030px;
     font-size: 20px;
 }
 
-#tipos{
+.type{
+    text-align: center;
+    background-color: black;
     margin-top: 250px;
     margin-left: 400pt;
     font-size: 40px;
+    height: 100px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+p{
+    color: white;
     padding: 10px 30px 10px 30px;
 }
 
-#color{
-    margin-top: 200px;
-    margin-left: 450pt;
-    font-size: 40px;
+span{
+    color: white;
     padding: 10px 30px 10px 30px;
+    font-size: 20px;
 }
 
-button {
-    position:absolute;
+.button{
+    position: fixed;
+    text-align: center;
     margin-top: 150px;
-    margin-left: 30pt;
+    margin-left: 500pt;
+}
+
+button{
     border-radius: 5px;
     border-color:cadetblue;
     padding: 5px 20px;
+}
+
+@media screen and (max-width: 480px){
+
+header{
+    background-color: white;
+    width: 600px;
+}
+
+#flipper{
+        margin-top: 50px;
+        margin-left: 130px;
+        font-weight: bold;
+}
+
+#simple{
+        margin-top: -20px;
+        margin-left: 430px;
+}
+
+#hex{
+    margin-top:-20px;
+    margin-left: 530px;
+}
+
+.type{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 100pt;
+}
+
+.button{
+    position: fixed;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 200pt;    
+}
 }

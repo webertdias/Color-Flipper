@@ -1,6 +1,6 @@
-const colorSimple = ["red", "cyan", "green"];
+const colorSimple = ["red", "cyan", "green", "yellow", "orange"];
 const btn = document.getElementById("btn");
-const color = document.querySelector("color")
+const color = document.querySelector("span")
 
 btn.addEventListener("click", function(){
     const  randomNumber = getRandomNumber();
