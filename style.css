@@ -1,18 +1,18 @@
-.selecao{
-    height: 30px;
-    background-color: cornflowerblue;
+header{
+    height: 50px;
+    background-color: white;
 }
 
-#cor{
-    margin-top: 20px;
+#flipper{
+    margin-top: 50px;
     margin-left: 230px;
     font-size: 20px;
     font-weight: bold;
     color:aquamarine;
 }
 
-#simples{
-    margin-top: -10px;
+#simple{
+    margin-top: -20px;
     margin-left: 830px;
     font-size: 20px;
 }
@@ -30,9 +30,17 @@
     padding: 10px 30px 10px 30px;
 }
 
+#color{
+    margin-top: 200px;
+    margin-left: 450pt;
+    font-size: 40px;
+    padding: 10px 30px 10px 30px;
+}
+
 button {
+    position:absolute;
     margin-top: 150px;
-    margin-left: 500pt;
+    margin-left: 30pt;
     border-radius: 5px;
     border-color:cadetblue;
     padding: 5px 20px;
